@@ -1,4 +1,6 @@
-package com.w3resource.basicpart1;/*
+package com.w3resource.basicpart1;
+
+/*
 Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
 Test Data:
 Input first number: 125
@@ -9,7 +11,7 @@ Expected Output :
 125 x 24 = 3000
 125 / 24 = 5
 125 mod 24 = 5
- */
+*/
 
 import java.util.Scanner;
 

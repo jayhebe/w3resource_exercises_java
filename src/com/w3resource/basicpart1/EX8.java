@@ -1,4 +1,6 @@
-package com.w3resource.basicpart1;/*
+package com.w3resource.basicpart1;
+
+/*
 Write a Java program to display the following pattern.
 Sample Pattern :
 
@@ -6,7 +8,7 @@ Sample Pattern :
    J   a a   v   v  a a
 J  J  aaaaa   V V  aaaaa
  JJ  a     a   V  a     a
- */
+*/
 
 public class EX8
 {

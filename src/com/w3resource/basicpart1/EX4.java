@@ -1,4 +1,6 @@
-package com.w3resource.basicpart1;/*
+package com.w3resource.basicpart1;
+
+/*
 Write a Java program to print the result of the following operations.
 Test Data:
 a. -5 + 8 * 6
@@ -10,7 +12,7 @@ Expected Output :
 1
 19
 13
- */
+*/
 
 public class EX4
 {
