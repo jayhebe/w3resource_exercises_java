@@ -23,28 +23,28 @@ public class EX17 {
         System.out.println("Sum of two binary numbers: " + intToBin(binToInt(first) + binToInt(second)));
     }
 
-    public static int binToInt(String binary) {
-        int result = 0;
-
-        String[] bins = binary.split("");
-        for (int i = 0; i < bins.length; i++) {
-            result += (Integer.parseInt(bins[i]) * Math.pow(2, bins.length - i - 1));
-        }
-
-        return result;
-    }
-
-    public static String intToBin(int number) {
+    public static String intToBin(int intNumber) {
         StringBuffer result = new StringBuffer();
 
         while (true) {
-            result.append(number % 2);
-            number /= 2;
-            if (number == 0) {
+            result.append(intNumber % 2);
+            intNumber /= 2;
+            if (intNumber == 0) {
                 break;
             }
         }
 
         return result.reverse().toString();
+    }
+
+    public static int binToInt(String binNumber) {
+        int result = 0;
+
+        String[] bins = binNumber.split("");
+        for (int i = 0; i < bins.length; i++) {
+            result += (Integer.parseInt(bins[i]) * Math.pow(2, bins.length - i - 1));
+        }
+
+        return result;
     }
 }
